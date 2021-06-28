@@ -41,21 +41,4 @@ function createBot (name) {
       bot.pathfinder.setGoal(goal, true)
 
   })
-
-  // bot.on('spawn',() =>{
-  //   const playerBot = bot.players['AMS']
-  //
-  //   if (!playerBot || !playerBot.entity) {
-  //     bot.chat("I can't see Player!")
-  //     return
-  //   }
-  //
-  //   const mcData = require('minecraft-data')(bot.version)
-  //   const movements = new Movements(bot, mcData)
-  //
-  //   bot.pathfinder.setMovements(movements)
-  //
-  //   const goal = new GoalFollow(playerBot.entity, 1)
-  //   bot.pathfinder.setGoal(goal, true)
-  // })
 }
